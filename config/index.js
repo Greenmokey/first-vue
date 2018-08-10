@@ -36,6 +36,7 @@ module.exports = {
     cssSourceMap: true
   },
 
+  //用来配置生成生产环境可用的代码
   build: {
     // Template for index.html
     index: path.resolve(__dirname, '../dist/index.html'),
